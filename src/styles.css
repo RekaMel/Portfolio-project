@@ -27,6 +27,9 @@ h2 {
   font-size: 64px;
 }
 
+h2 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font: 16px;
@@ -36,7 +39,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -53,7 +56,7 @@ p {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -112,6 +115,10 @@ p {
     font-size: 44px;
   }
 
+  h3 {
+    font-size: 26px;
+  }
+
   .content {
     text-align: center;
     padding: 0;
@@ -119,6 +126,10 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .btn {
+    font-size: 18px;
   }
 
   .project-description {
@@ -154,7 +165,17 @@ footer {
   margin: 60px 0;
 }
 
-footer .social-links a {
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .social-link a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -163,7 +184,7 @@ footer .social-links a {
   border-radius: 50%;
   transform: all 100ms ease-in-out;
 }
-footer .social-links a:hover {
+footer .social-link a:hover {
   color: white;
   background: var(--branding-color);
 }

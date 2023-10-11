@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Reka is a front-end, full-stack engineer, web developer, geoinformatician based in Austria"
+    />
+    <title>Front-end developer - Reka Melania Acs</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,12 +31,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#"
-        ><img src="images/logo.png" alt="Image Logo" class="logo"
+      <a class="navbar-brand" href="index.html" title="Homepage"
+        ><img src="images/logo.png" alt="Reka Logo" class="logo"
       /></a>
       <button
         class="navbar-toggler"
@@ -47,18 +51,20 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html"
+            <a class="nav-link active" href="index.html" title="Homepage"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html" title="About Reka">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="work.html">Work</a>
+            <a class="nav-link" href="work.html" title="Reka`s Work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html" title="Contact Reka"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
@@ -68,7 +74,9 @@
       <h1>Reka Melania Acs</h1>
       <h2 mb-5>Front-end developer based in Austria</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding" title="Contact Reka"
+          >Contact me</a
+        >
       </div>
     </div>
 
@@ -80,7 +88,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/yogurt.png"
-            alt="Image of a yogurt app"
+            alt="Yogurt App preview"
             class="img-fluid"
           />
         </div>
@@ -94,7 +102,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -109,13 +117,13 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/weather.png"
-            alt="Image of a yogurt app"
+            alt="Weather App preview"
             class="img-fluid"
           />
         </div>
@@ -125,7 +133,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/dictionary.png"
-            alt="Image of a yogurt app"
+            alt="Dictionary App preview"
             class="img-fluid"
           />
         </div>
@@ -139,29 +147,63 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
-
       <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Lets work togather!</p>
+          </div>
+          <div>
+            <a href="contact.html" class="btn btn-branding" title="Contact Reka"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
         <div class="d-flex justify-content-center">
-          <a href="mailto:reka.acs83@gmail.com" class="email-link"
+          <a
+            href="mailto:reka.acs83@gmail.com"
+            class="email-link"
+            title="Email Reka"
             >reka.acs83@gmail.com</a
           >
         </div>
 
         <div class="social-link d-flex justify-content-center">
-          <a href="mailto:reka.acs83@gmail.com" target="_blank"
+          <a
+            href="mailto:reka.acs83@gmail.com"
+            target="_blank"
+            title="Email Reka"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="https://github.com/RekaMel" target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="www.linkedin.com/in/reka-acs-b612142a" target="_blank"
+          <a
+            href="https://github.com/RekaMel"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
+          <a
+            href="https://www.linkedin.com/in/reka-acs-b612142a"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </div>
+        <p class="text-center mt-5">
+          👋This page was coded by Reka Acsa and is open sourced on
+          <a
+            href="https://github.com/RekaMel/Portfolio-project"
+            title="Project on GitHub"
+            target="_blank"
+            >GitHub</a
+          >.
+        </p>
       </footer>
     </div>
   </body>
